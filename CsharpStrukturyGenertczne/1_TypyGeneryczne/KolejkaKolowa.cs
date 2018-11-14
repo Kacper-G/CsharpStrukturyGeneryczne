@@ -2,19 +2,20 @@
 
 namespace _1_TypyGeneryczne
 {
-    public class KolejkaKołowa
+    public class KolejkaKolowa
     {
-        private Double[] bufor;
+        private double[] bufor;
         private int poczatekBufora;
         private int koniecBufora;
 
 
-        public KolejkaKołowa() : this(pojemnosc: 5)
+        public KolejkaKolowa
+            () : this(pojemnosc: 5)
         {
 
         }
 
-        public KolejkaKołowa(int pojemnosc)
+        public KolejkaKolowa(int pojemnosc)
         {
             bufor = new double[pojemnosc + 1];
             poczatekBufora = 0;
@@ -63,4 +64,7 @@ namespace _1_TypyGeneryczne
         }
 
     }
+    
+
+
 }

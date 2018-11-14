@@ -10,7 +10,7 @@ namespace _1_TypyGeneryczneTests
         [TestMethod]
         public void NowaKolejkaJestPusta()
         {
-            var kolejka = new KolejkaKołowa();
+            var kolejka = new KolejkaKolowa();
 
             Assert.IsTrue(kolejka.JestPusty);
         }
@@ -18,7 +18,7 @@ namespace _1_TypyGeneryczneTests
         [TestMethod]
         public void KolejkaTrzyElementowaJestPelanPoTrzechZapisach()
         {
-            var kolejka = new KolejkaKołowa(pojemnosc: 3);
+            var kolejka = new KolejkaKolowa(pojemnosc: 3);
             kolejka.Zapisz(3.8);
             kolejka.Zapisz(5.7);
             kolejka.Zapisz(9.3);
@@ -29,7 +29,7 @@ namespace _1_TypyGeneryczneTests
         [TestMethod]
         public void PierwszyWchodziPierwszyWychodzi()
         {
-            var kolejka = new KolejkaKołowa(pojemnosc: 3);
+            var kolejka = new KolejkaKolowa(pojemnosc: 3);
             var wartosc1 = 4.6;
             var wartosc2 = 3.7;
 
@@ -44,7 +44,7 @@ namespace _1_TypyGeneryczneTests
         [TestMethod]
         public void NadpisujeGdyJestWiekszaNizPojemnosc()
         {
-            var kolejka = new KolejkaKołowa(pojemnosc: 3);
+            var kolejka = new KolejkaKolowa(pojemnosc: 3);
 
             var wartosci = new[] { 1.2, 2.4, 3.6, 4.8, 5.3, 6.8 };
 
